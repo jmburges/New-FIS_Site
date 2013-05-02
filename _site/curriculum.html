@@ -5,11 +5,11 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
   <meta charset="UTF-8" />
   <meta name="viewport" content ="width=device-width, minimum-scale=1.0, initial-scale=1.0">
-  
+
   <title>The Flatiron School</title>
-  
+
   <link rel='stylesheet' id='slate_style-css'  href="css/style.css" type='text/css' media='all' />
-  <link rel='stylesheet' id='slate_style-css'  href="css/style-dark.css" type='text/css' media='all' />
+  <!-- <link rel='stylesheet' id='slate_style-css'  href="css/style-dark.css" type='text/css' media='all' /> -->
   <link rel='stylesheet' id='slate_media_queries-css'  href="css/media-queries.css" type='text/css' media='all' />
   <link rel='stylesheet' id='flex_css-css'  href="css/flexslider.css" type='text/css' media='screen' />
   <link rel='stylesheet' id='font_awesome_css-css'  href="css/font-awesome.css" type='text/css' media='screen' />
@@ -28,8 +28,8 @@
       <div class="header">
         <div class="header-left">
           <h1 class="logo-text">
-            <a href="#" title="The Flatiron School">
-              <img src="img/the-flatiron-school-logo-sm-white.png" class="logo">
+            <a href="/" title="The Flatiron School">
+              <img src="img/the-flatiron-school-logo-sm-gry.png" class="logo">
             </a>
           </h1>
         </div>
@@ -43,28 +43,28 @@
                 <a href="events.html">Events</a>
               </li>
               <li>
-                <a href="program.html">The Program</a>
+                <a href="curriculum.html">The Program</a>
                 <ul class="sub-menu">
                   <li><a href="curriculum.html">Curriculum</a></li>
                   <li><a href="faculty.html">Faculty</a></li>
                   <li><a href="speakers.html">Guest Speakers</a></li>
-                  <li><a href="http://students.flatironschool.com/">Students</a></li>
                 </ul>
               </li>
-              <li><a href="apply"><font color="#26c4ff">Apply</font></a>
+              <li><a href="http://info.flatironschool.com/summer-2013-application"><font color="#26c4ff">Apply</font></a>
               </li>
               <li>
-                <a href="employers">Employers</a>
+                <a href="employers.html">Employers</a>
               </li>
               <li>
-                <a href="faq">FAQ</a>
+                <a href="faq.html">FAQ</a>
               </li>
               <li>
                 <a href="http://blog.flatironschool.com/">Blog</a>
               </li>
               <li>
-                <a href="contact">Contact</a>          
+                <a href="contact.html">Contact</a>
               </li>
+              <li><a href="http://info.flatironschool.com/high-school" target="_blank">High School</a></li>
             </ul>
           </div>
           <div class="clear"></div>
@@ -73,11 +73,11 @@
       </div>
     </div>
     <div class="container">
-      <div class="page-title">
-        <h2>Student Curriculum</h2>
-        <h3>What graduates grok.</h3>
-      </div>
-      <div class="content content-full">
+  <div class="page-title">
+    <h2>Student Curriculum</h2>
+    <h3>What graduates grok.</h3>
+  </div>
+  <div class="content content-full">
     <div class="section section-services">
       <div class="section-title">
         <span>Become a Professional Web Developer</span>
@@ -89,10 +89,10 @@
               <i class="icon-laptop"></i>
             </span>
             <div class="services-title">
-              <h3>HTML5: ERB + HAML</h3>
+              <h3>HTML5: ERB</h3>
             </div>
             <div class="clear"></div>
-            <p>HTML is the structure that supports the web. Whether writing it through ERB or HAML, you'll have no problem applying semantics to documents and utilizing the power of HTML5.</p>
+            <p>HTML is the structure that supports the web. Whether writing it through ERB or vanilla HTML, you'll have no problem applying semantics to documents and utilizing the power of markup.</p>
           </div>
         </div>
         <div id="ok-text-column-3" class="column ok-text-column">
@@ -113,10 +113,10 @@
               <i class="icon-spinner"></i>
             </span>
             <div class="services-title">
-          <h3>JS with CoffeeScript</h3>
+          <h3>Javascript</h3>
         </div>
         <div class="clear"></div>
-        <p>You'll bring the web to life with jQuery powered interactions and an understanding of the core of Javascript. Plus, you'll take advantage of better syntax with CoffeeScript.</p>
+        <p>You'll bring the web to life with jQuery powered interactions and an understanding of the core of Javascript.</p>
       </div>
     </div>
     <div id="ok-text-column-5" class="column ok-text-column">
@@ -143,7 +143,7 @@
         <p>The number one web framework in use by Ninjas, Rockstars, and Hackers. Seriously, it makes web development a productive pleasure. You will be a Rails guru.</p>
       </div>
     </div>
-    <div id="ok-text-column-7" class="column ok-text-column">
+    <!-- <div id="ok-text-column-7" class="column ok-text-column">
       <div class="services">
         <span class="service-icon">
           <i class="icon-mobile-phone"></i>
@@ -154,7 +154,7 @@
         <div class="clear"></div>
         <p>While the web is definitely the platform, we love native iOS applications too. That's why you'll be learning the cutting-edge Ruby framework for iOS.</p>
       </div>
-    </div>
+    </div> -->
     <div style="clear:both;"></div>
   </div>
 </div>
@@ -183,7 +183,7 @@
     <div id="ok-text-column-2" class="column ok-text-column">
       <div class="services">
         <span class="service-icon">
-          <i class="icon-github"></i> 
+          <i class="icon-github"></i>
         </span>
         <div class="services-title">
           <h3>Git Control</h3>
@@ -357,9 +357,9 @@
       </div>
       <div id="recent-posts-2" class="footer-widget widget_recent_entries">
         <h2 class="widgettitle">
-          Recent Blog Posts
+          <a href="http://blog.flatironschool.com">Recent Blog Posts</a>
         </h2>
-        <ul>
+        <!-- <ul>
           <li><a href="http://blog.flatironschool.com/">
             Jon Grover dropping front-end knowledge</a></li>
           <li><a href="http://blog.flatironschool.com/">
@@ -370,12 +370,12 @@
             Programer of the day: Matz!</a></li>
           <li><a href="http://blog.flatironschool.com/">
             What Is a N + 1 Selects Statement?</a></li>
-        </ul>
+        </ul> -->
       </div>
       <div id="ok-twitter-4" class="footer-widget ok-twitter">
         <div class="twitter-widget">
           <h2 class="widgettitle">
-            Twitter @FlatironSchool
+            Twitter <a href="http://twitter.com/flatironschool">@FlatironSchool</a>
           </h2>
           <script type="text/javascript">/*<![CDATA[*/Chirp({user:'flatironschool',max:1,cacheExpire:1000*60*2,templates:{base:'<ul class="chirp"></ul>',tweet:'<li><p><a class="chirp-avatar" href="http://twitter.com/" title=" ? "><img alt="profile-image" src=""></a> </p><span class="meta"><time><a href="http://twitter.com//statuses/"></a></time> &mdash; via <a href="http://twitter.com/" title=" ? "></a></span></li>'}})/*]]>*/</script>
         </div>
