@@ -29,3 +29,16 @@ Step 6: Push your changes to the live site.
 `git push`
 
 You should see something like:
+
+  Counting objects: 5, done.
+  Delta compression using up to 4 threads.
+  Compressing objects: 100% (3/3), done.
+  Writing objects: 100% (3/3), 672 bytes, done.
+  Total 3 (delta 1), reused 0 (delta 0)
+  To git@github.com:flatiron-school/flatiron-school.github.io.git
+    2123dd7..57d1059  HEAD -> master
+
+The important line is: `    2123dd7..57d1059  HEAD -> master`
+
+Notice the `->` that means the update was succesful. You might get a rejected message, in which case, run `git pull --rebase` again and then try `git push`
+
