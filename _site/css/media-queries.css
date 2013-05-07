@@ -120,11 +120,11 @@
 		display: block;
 	}
 	
-	.mobile-icon {
+.mobile-icon {
 		position: absolute;
 	    width: 30px;
 	    height: 30px;
-	    right: 33px;
+	    right: 0;
 	    font-size: 14px;
 	    line-height: 32px;
 	    text-indent: 9px;
@@ -133,7 +133,7 @@
 	    background: #333;
 	    cursor: default;
 	    z-index: 1;
-	}
+	    }
 	
 	.mobile-icon:before {
 		font-family: 'FontAwesome';
