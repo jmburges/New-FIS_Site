@@ -300,7 +300,7 @@ img {
     z-index: 1000;
 }
 
-#nav a {
+#nav a,#nav span {
     display: block;
     padding: 5px;
     color: #aaa;
@@ -310,6 +310,7 @@ img {
     font-weight: normal;
     font-family: 'Merriweather', Georgia, serif;
 }
+
 
 #nav > .current-menu-item > a, #nav > li a:hover { color: #4C4C4C }
 
@@ -327,7 +328,7 @@ img {
     padding-bottom: 17px;
 }
 
-#nav li a {
+#nav li a, #nav span {
     font-size: 12px;
     font-weight: bold;
     text-transform: uppercase;
@@ -336,6 +337,10 @@ img {
 
 #nav > li > a { padding: 5px 12px }
 
+#nav span { 
+  padding: 5px 12px;
+  cursor: default;
+}
 #nav > li:last-child a {
     margin-right: 0px;
     padding-right: 0px;
