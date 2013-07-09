@@ -374,7 +374,7 @@ img {
 
 #nav .sub-menu li:first-child { border-top: solid 1px #eee }
 
-#nav > li > ul { margin-top: 17px }
+#nav > li > ul { margin-top: 15px }
 
 #nav li ul li {
     border-bottom: solid 1px #eee;
@@ -393,7 +393,7 @@ img {
     color: #555;
 }
 
-#nav ul ul { top: auto }
+#nav ul ul { top: auto; }
 
 #nav ul ul li:first-child { border-top: solid 1px #eee }
 
