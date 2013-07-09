@@ -239,7 +239,6 @@ img {
 .header {
     max-width: 980px;
     margin: 0 auto;
-    padding-top: 40px;
     border-bottom: solid 1px #eee;
 }
 
@@ -274,12 +273,13 @@ img {
 }
 
 .logo {
-    margin-top: -30px !important;
+    padding-bottom: 5px;
 }
 
 .header-right {
     width: 75%;
     float: right;
+    padding-top: 40px;
 }
 
 /* ===[ Header Navigation Styles ]===================================================== */
@@ -2871,9 +2871,11 @@ object, svg {
 }
 
 object#minify {
-   width: 368px;
-   height: 33px;
+   width: 239px;
+   height: 23px;
    display: none;
+   margin-top: 12px;
+   margin-left: -20px;
 }
 
 object#bigify {
