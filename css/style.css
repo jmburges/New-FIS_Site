@@ -1,3 +1,11 @@
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    height: 0;
+    line-height: 0;
+}
 
 body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
     margin: 0;
@@ -239,7 +247,6 @@ img {
 .header {
     max-width: 980px;
     margin: 0 auto;
-    padding-top: 40px;
     border-bottom: solid 1px #eee;
 }
 
@@ -274,12 +281,13 @@ img {
 }
 
 .logo {
-    margin-top: -30px !important;   
+    padding-bottom: 5px;
 }
 
 .header-right {
     width: 75%;
     float: right;
+    padding-top: 40px;
 }
 
 /* ===[ Header Navigation Styles ]===================================================== */
@@ -319,6 +327,7 @@ img {
 #nav ul {
     position: absolute;
     display: none;
+    top: 15px;
 }
 
 #nav li {
@@ -373,7 +382,7 @@ img {
 
 #nav .sub-menu li:first-child { border-top: solid 1px #eee }
 
-#nav > li > ul { margin-top: 17px }
+#nav > li > ul { margin-top: 15px }
 
 #nav li ul li {
     border-bottom: solid 1px #eee;
@@ -392,7 +401,7 @@ img {
     color: #555;
 }
 
-#nav ul ul { top: auto }
+#nav ul ul { top: auto; }
 
 #nav ul ul li:first-child { border-top: solid 1px #eee }
 
@@ -2855,3 +2864,71 @@ input.hs-button.primary.large{
     margin-bottom: 0 !important;
     padding-bottom: 0 !important;
 }
+
+/* ===[ portfolio block images ]===================================================== */
+
+.portfolio-block-inside img {
+    filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 10+, Firefox on Android */
+    filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+
+/* ==[ svg logos ]==================================================================== */
+
+object, svg {
+    margin: 0;
+    padding: 0;
+}
+
+object#minify {
+   width: 239px;
+   height: 23px;
+   display: none;
+   margin-top: 12px;
+   margin-left: -20px;
+}
+
+object#bigify {
+    width: 140px;
+    height: 89px; 
+    display: block;
+    padding: 5px 3px 3px;
+    display: block;
+}
+
+/* ==[ sub nav ]======================================================================== */
+
+/*.link-subs {
+  padding-top: 10px;
+  margin: 0 auto;
+  width: 980px;
+  text-align: left;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #eee;
+  padding-left: 2px;
+  padding-right: 2px;
+}
+.link-subs span {
+  display: inline;
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+}
+.link-subs li {
+  display: inline;
+}
+
+.link-subs ul {
+  float: right;
+  text-align: right;
+  letter-spacing: 2px;
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-top: 0;
+}
+.link-subs ul li a {
+  color: #aaa;
+}
+.link-subs ul a:hover {
+  color: #37C5FD;
+}*/
