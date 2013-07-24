@@ -2904,10 +2904,12 @@ object#bigify {
     width: 100%;
     display: block;
     background: red;
+    border-bottom: 1px solid #ccc;
 }
   /* bio 2 column container */
 
   .jg-bio {
+    float: left;
     width: 65.4%;
     background: yellow;
   }
@@ -2916,35 +2918,49 @@ object#bigify {
 
     .jg-bio h3 {
       background: #ccc;
+      line-height: 28px;
+      margin: 0;
     }
 
     /* Position Title */
 
     .jg-bio h4 {
       background: #efefef;
+      margin: 0;
     }
 
     .jg-bio p {
       font-size: 12px;
     }
 
-    .jg-bio nav {
-      font-size: 12px;
+  /* Figure */
+  .jg-row figure {
+    width: 32.6%;
+    margin: 0;
+    margin-left: 2%;
+    float: right;
+    background: green;
+    text-align: center;
+  }
+
+    /* Headshot Image */
+
+    .jg-row figure img {
+      width: 50%;
+      margin: 0 auto;
     }
 
-      /* social icons */
+    /* social links container */
 
-      .jg-bio nav i {
-
+    .jg-row figcaption{
+        font-size: 28px;
       }
 
-  /* Headshot Image */
+        /* social icons */
 
-  .jg-row img {
-    width: 32.6%;
-    margin-left: 2%;
-    background: blue;
-  }
+        .jg-row figcaption i {
+          padding: 0 10px 0 0;
+        }
 
 
 /* ==[ sub nav ]======================================================================== */
