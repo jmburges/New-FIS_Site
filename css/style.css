@@ -2903,7 +2903,7 @@ object#bigify {
 .jg-row {
     width: 100%;
     display: block;
-    background: red;
+    /*background: red;*/
     border-bottom: 1px solid #ccc;
 }
   /* bio 2 column container */
@@ -2911,13 +2911,13 @@ object#bigify {
   .jg-bio {
     float: left;
     width: 65.4%;
-    background: yellow;
+    /*background: yellow;*/
   }
 
     /* Name */
 
     .jg-bio h3 {
-      background: #ccc;
+      /*background: #ccc;*/
       line-height: 28px;
       margin: 0;
     }
@@ -2925,8 +2925,10 @@ object#bigify {
     /* Position Title */
 
     .jg-bio h4 {
-      background: #efefef;
+      /*background: #efefef;*/
       margin: 0;
+      font-size: 1em;
+      color: #333;
     }
 
     .jg-bio p {
@@ -2939,7 +2941,7 @@ object#bigify {
     margin: 0;
     margin-left: 2%;
     float: right;
-    background: green;
+    /*background: green;*/
     text-align: center;
   }
 
