@@ -2898,10 +2898,13 @@ object#bigify {
 
 /* ==[ jg-styles for faculty page ]====================================================== */
 
-/* faculty memmber row */
+/* faculty member row */
 
 .jg-row {
-    
+    width: 100%;
+    display: block;
+    background: red;
+    border-bottom: 1px solid #ccc;
 }
   /* bio 2 column container */
 
@@ -2913,13 +2916,13 @@ object#bigify {
     /* Name */
 
     .jg-bio h3 {
-    
+      background: #ccc;
     }
 
     /* Position Title */
 
     .jg-bio h4 {
-
+      background: #efefef;
     }
 
     .jg-bio p {
@@ -2941,6 +2944,7 @@ object#bigify {
   .jg-row img {
     width: 32.6%;
     margin-left: 2%;
+    background: blue;
   }
 
 
