@@ -2896,6 +2896,54 @@ object#bigify {
     display: block;
 }
 
+/* ==[ jg-styles for faculty page ]====================================================== */
+
+/* faculty memmber row */
+
+.jg-row {
+    
+}
+  /* bio 2 column container */
+
+  .jg-bio {
+    width: 65.4%;
+    background: yellow;
+  }
+
+    /* Name */
+
+    .jg-bio h3 {
+    
+    }
+
+    /* Position Title */
+
+    .jg-bio h4 {
+
+    }
+
+    .jg-bio p {
+      font-size: 12px;
+    }
+
+    .jg-bio nav {
+      font-size: 12px;
+    }
+
+      /* social icons */
+
+      .jg-bio nav i {
+
+      }
+
+  /* Headshot Image */
+
+  .jg-row img {
+    width: 32.6%;
+    margin-left: 2%;
+  }
+
+
 /* ==[ sub nav ]======================================================================== */
 
 /*.link-subs {
@@ -2932,3 +2980,4 @@ object#bigify {
 .link-subs ul a:hover {
   color: #37C5FD;
 }*/
+
