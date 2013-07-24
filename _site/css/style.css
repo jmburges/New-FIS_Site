@@ -2904,21 +2904,21 @@ object#bigify {
     width: 100%;
     display: block;
     /*background: red;*/
-    border-bottom: 1px solid #ccc;
+    border-bottom: 1px dotted #ccc;
+    padding: 25px 0;
 }
   /* bio 2 column container */
 
   .jg-bio {
     float: left;
     width: 65.4%;
-    /*background: yellow;*/
   }
 
     /* Name */
 
     .jg-bio h3 {
-      /*background: #ccc;*/
       line-height: 28px;
+      font-size: 1.4em;
       margin: 0;
     }
 
@@ -2926,13 +2926,16 @@ object#bigify {
 
     .jg-bio h4 {
       /*background: #efefef;*/
-      margin: 0;
-      font-size: 1em;
-      color: #333;
+      margin: 0 0 10px;
+      font-size: 1.2em;
+      color: #555;
+      line-height: 1em;
     }
 
     .jg-bio p {
       font-size: 12px;
+      line-height: 1.5em;
+      margin: 0 0 10px;
     }
 
   /* Figure */
@@ -2948,20 +2951,34 @@ object#bigify {
     /* Headshot Image */
 
     .jg-row figure img {
-      width: 50%;
+      display: block;
       margin: 0 auto;
+    }
+
+    .jg-row figure img:after {
+      content: "<img src="../img/flourish.png" class="flourish">";
+    }
+    
+    /* decortaive flourish */
+
+    .jg-row figure img.flourish {
+      margin: 7px auto 0;
     }
 
     /* social links container */
 
     .jg-row figcaption{
-        font-size: 28px;
+        font-size: 20px; /* sets size of social icons */
       }
 
         /* social icons */
 
         .jg-row figcaption i {
-          padding: 0 10px 0 0;
+          padding: 0 7px 0 0;
+        }
+
+        .jg-row figcaption i.last {
+          padding: 0;
         }
 
 
