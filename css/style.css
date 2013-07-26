@@ -2927,8 +2927,8 @@ object#bigify {
     .jg-bio h4 {
       /*background: #efefef;*/
       margin: 0 0 10px;
-      font-size: 1.2em;
-      color: #555;
+      font-size: 1.15em;
+      color: #666;
       line-height: 1em;
     }
 
@@ -2936,6 +2936,7 @@ object#bigify {
       font-size: 12px;
       line-height: 1.5em;
       margin: 0 0 10px;
+      color: #000;
     }
 
   /* Figure */
@@ -2953,12 +2954,14 @@ object#bigify {
     .jg-row figure img {
       display: block;
       margin: 0 auto;
+      border: 1px solid #ccc;
     }
     
     /* decortaive flourish */
 
     .jg-row figure img.flourish {
       margin: 7px auto 0;
+      border: 0;
     }
 
     /* social links container */
