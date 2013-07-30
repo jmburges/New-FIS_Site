@@ -2903,10 +2903,24 @@ object#bigify {
 .jg-row {
     width: 100%;
     display: block;
-    /*background: red;*/
     border-bottom: 1px dotted #ccc;
     padding: 25px 0;
 }
+
+  /* expandable bio text link (see custom.js) */
+
+  .jg-row .expand {
+    display: block;
+    clear: both;
+    margin: 0;
+    cursor: pointer;
+    color: #60BDDB;
+  }
+
+  .jg-row .expand:hover {
+    color: #333;
+  }
+
   /* bio 2 column container */
 
   .jg-bio {
@@ -2925,7 +2939,6 @@ object#bigify {
     /* Position Title */
 
     .jg-bio h4 {
-      /*background: #efefef;*/
       margin: 0 0 10px;
       font-size: 1.15em;
       color: #666;
@@ -2945,7 +2958,6 @@ object#bigify {
     margin: 0;
     margin-left: 2%;
     float: right;
-    /*background: green;*/
     text-align: center;
   }
 
@@ -2979,6 +2991,10 @@ object#bigify {
         .jg-row figcaption i.last {
           padding: 0;
         }
+
+    .auto_height {
+      height: auto !important;   
+    }
 
 
 /* ==[ sub nav ]======================================================================== */
