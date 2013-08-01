@@ -2968,6 +2968,10 @@ object#bigify {
       margin: 0 auto;
       border: 1px solid #ccc;
     }
+
+    .jg-row figure img.noborder {
+      border: 0;
+    }
     
     /* decortaive flourish */
 
