@@ -3041,6 +3041,6 @@ object#bigify {
         line-height: 1.2em;
     }
 
-    .requirements {
-        list-style: block;
+    ul.requirements {
+        list-style: disc;
     }
