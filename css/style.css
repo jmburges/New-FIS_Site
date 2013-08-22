@@ -3037,5 +3037,6 @@ object#bigify {
     }
 
     .intro-p {
-        font-size: 2em;
+        font-size: 1.65em;
+        line-height: 1.35em;
     }
