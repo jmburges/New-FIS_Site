@@ -3000,41 +3000,11 @@ object#bigify {
       height: auto !important;   
     }
 
+/* ==[ work-force-1 ruby curriculum brooklyn styles ]============================================ */
 
-/* ==[ sub nav ]======================================================================== */
-
-/*.link-subs {
-  padding-top: 10px;
-  margin: 0 auto;
-  width: 980px;
-  text-align: left;
-  padding-bottom: 10px;
-  border-bottom: solid 1px #eee;
-  padding-left: 2px;
-  padding-right: 2px;
-}
-.link-subs span {
-  display: inline;
-  font-size: 20px;
-  font-weight: bold;
-  color: #000;
-}
-.link-subs li {
-  display: inline;
-}
-
-.link-subs ul {
-  float: right;
-  text-align: right;
-  letter-spacing: 2px;
-  font-size: 10px;
-  text-transform: uppercase;
-  margin-top: 0;
-}
-.link-subs ul li a {
-  color: #aaa;
-}
-.link-subs ul a:hover {
-  color: #37C5FD;
-}*/
-
+    #work-force-1 {
+        width: 100%;
+        height: 104px;
+        background: black;
+        position: relative;
+    }
