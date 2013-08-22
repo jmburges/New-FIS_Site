@@ -3043,4 +3043,5 @@ object#bigify {
 
     ul.requirements {
         list-style: disc;
+        margin-left: 16px;
     }
