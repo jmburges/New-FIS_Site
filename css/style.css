@@ -3035,3 +3035,7 @@ object#bigify {
         float: none;
         height: auto;
     }
+
+    .intro {
+        font-size: 2em;
+    }
