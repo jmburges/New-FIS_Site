@@ -3004,11 +3004,26 @@ object#bigify {
 
     #work-force-1 {
         width: 100%;
-        background: black;
+        background: black url(../img/work-force-1-header-background.png) repeat-x;
         margin-top: 0;
+        height: 103px;
+        overflow: hidden;
     }
 
     #work-force-1 .header {
-        height: 104px;
-        background: #ccc;
+        height: auto;
+    }
+
+    .work-force-1-logo {
+        display: block;
+        float: left;
+    }
+
+    .nyc-logo {
+        display: block;
+        float: right;
+    }
+
+    .wf1 {
+        padding-top: 258px;
     }
