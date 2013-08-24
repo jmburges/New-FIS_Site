@@ -2878,6 +2878,7 @@ input.hs-button.primary.large{
 object, svg {
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 object#minify {
@@ -2886,6 +2887,7 @@ object#minify {
    display: none;
    margin-top: 12px;
    margin-left: -20px;
+   pointer-events: none;
 }
 
 object#bigify {
@@ -2894,6 +2896,13 @@ object#bigify {
     display: block;
     padding: 5px 3px 3px;
     display: block;
+    pointer-events: none;
+}
+
+.header-left a {
+    display: inline-block;
+    width: auto;
+    height: auto;
 }
 
 /* ==[ jg-styles for faculty page ]====================================================== */
@@ -3045,3 +3054,18 @@ object#bigify {
         list-style: disc;
         margin-left: 16px;
     }
+
+    .menu-item a.blue, .menu-item a.blue:hover, .menu-item a.blue:active, .menu-item a.blue:visited {
+        color: #26c4ff !important;
+    }
+
+    span.nav-label {
+        display: block;
+        clear: both;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+        position: relative;
+        top: -175px;
+    }
+
