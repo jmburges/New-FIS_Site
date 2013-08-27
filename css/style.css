@@ -2878,6 +2878,7 @@ input.hs-button.primary.large{
 object, svg {
     margin: 0;
     padding: 0;
+    cursor: pointer;
 }
 
 object#minify {
@@ -2886,6 +2887,7 @@ object#minify {
    display: none;
    margin-top: 12px;
    margin-left: -20px;
+   pointer-events: none;
 }
 
 object#bigify {
@@ -2894,41 +2896,176 @@ object#bigify {
     display: block;
     padding: 5px 3px 3px;
     display: block;
+    pointer-events: none;
 }
 
-/* ==[ sub nav ]======================================================================== */
-
-/*.link-subs {
-  padding-top: 10px;
-  margin: 0 auto;
-  width: 980px;
-  text-align: left;
-  padding-bottom: 10px;
-  border-bottom: solid 1px #eee;
-  padding-left: 2px;
-  padding-right: 2px;
-}
-.link-subs span {
-  display: inline;
-  font-size: 20px;
-  font-weight: bold;
-  color: #000;
-}
-.link-subs li {
-  display: inline;
+.header-left a {
+    display: inline-block;
+    width: auto;
+    height: auto;
 }
 
-.link-subs ul {
-  float: right;
-  text-align: right;
-  letter-spacing: 2px;
-  font-size: 10px;
-  text-transform: uppercase;
-  margin-top: 0;
+/* ==[ jg-styles for faculty page ]====================================================== */
+
+/* faculty member row */
+
+.jg-row {
+    width: 100%;
+    display: block;
+    border-bottom: 1px dotted #ccc;
+    padding: 25px 0;
 }
-.link-subs ul li a {
-  color: #aaa;
-}
-.link-subs ul a:hover {
-  color: #37C5FD;
-}*/
+
+  /* expandable bio text link (see custom.js) */
+
+  .jg-row .expand {
+    display: block;
+    clear: both;
+    margin: 0;
+    cursor: pointer;
+    color: #60BDDB;
+  }
+
+  .jg-row .expand:hover {
+    color: #333;
+  }
+
+  /* bio 2 column container */
+
+  .jg-bio {
+    float: left;
+    width: 65.4%;
+  }
+
+    /* Name */
+
+    .jg-bio h3 {
+      line-height: 28px;
+      font-size: 1.4em;
+      margin: 0;
+    }
+
+    /* Position Title */
+
+    .jg-bio h4 {
+      margin: 0 0 10px;
+      font-size: 1.15em;
+      color: #666;
+      line-height: 1em;
+    }
+
+    .jg-bio p {
+      font-size: 12px;
+      line-height: 1.5em;
+      margin: 0 0 10px;
+      color: #000;
+    }
+
+  /* Figure */
+  .jg-row figure {
+    width: 32.6%;
+    margin: 0;
+    margin-left: 2%;
+    float: right;
+    text-align: center;
+  }
+
+    /* Headshot Image */
+
+    .jg-row figure img {
+      display: block;
+      margin: 0 auto;
+      border: 1px solid #ccc;
+    }
+
+    .jg-row figure img.noborder {
+      border: 0;
+    }
+    
+    /* decortaive flourish */
+
+    .jg-row figure img.flourish {
+      margin: 7px auto 0;
+      border: 0;
+    }
+
+    /* social links container */
+
+    .jg-row figcaption{
+        font-size: 20px; /* sets size of social icons */
+      }
+
+        /* social icons */
+
+        .jg-row figcaption i {
+          padding: 0 7px 0 0;
+        }
+
+        .jg-row figcaption i.last {
+          padding: 0;
+        }
+
+    .auto_height {
+      height: auto !important;   
+    }
+
+/* ==[ work-force-1 ruby curriculum brooklyn styles ]============================================ */
+
+    #work-force-1 {
+        width: 100%;
+        background: black url(../img/work-force-1-header-background.png) repeat-x;
+        margin-top: 0;
+        height: 103px;
+        overflow: hidden;
+    }
+
+    #work-force-1 .header {
+        max-width: 1010px;
+        height: auto;
+    }
+
+    .work-force-1-logo {
+        display: block;
+        float: left;
+    }
+
+    .nyc-logo {
+        display: block;
+        float: right;
+    }
+
+    .wf1 {
+        padding-top: 258px;
+    }
+
+    .home-blog-post.wf1-unit {
+        width: 100%;
+        margin: 0 0 30px 0;
+        float: none;
+        height: auto;
+    }
+
+    .intro-p {
+        font-size: 1.5em;
+        line-height: 1.2em;
+    }
+
+    ul.requirements {
+        list-style: disc;
+        margin-left: 16px;
+    }
+
+    .menu-item a.blue, .menu-item a.blue:hover, .menu-item a.blue:active, .menu-item a.blue:visited {
+        color: #26c4ff !important;
+    }
+
+    span.nav-label {
+        display: block;
+        clear: both;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+        position: relative;
+        top: -175px;
+    }
+
