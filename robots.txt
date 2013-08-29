@@ -1,2 +1,3 @@
 User-agent: *
-Disallow: /rubycurriculum-wf1.html
+Disallow: /nycworkforce1/index.html
+Disallow: /doc/Web_Developer_FAQ4.pdf
