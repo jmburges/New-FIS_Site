@@ -1,3 +1,4 @@
 User-agent: *
-Disallow: /nycworkforce1/index.html
-Disallow: /doc/Web_Developer_FAQ4.pdf
+Allow: /
+# Disallow: /nycworkforce1/index.html
+# Disallow: /doc/Web_Developer_FAQ4.pdf
