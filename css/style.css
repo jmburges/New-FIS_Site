@@ -3097,4 +3097,7 @@ li.guest-speakers {
     border-bottom: 0;
   }
 
-
+a.bluelink:link, a.bluelink:visited, a.bluelink:hover, a.bluelink:active {
+  color: #26c4ff;
+  text-decoration: none;
+}
