@@ -3101,3 +3101,9 @@ a.bluelink:link, a.bluelink:visited, a.bluelink:hover, a.bluelink:active {
   color: #26c4ff;
   text-decoration: none;
 }
+
+/* ==[ twitter widget ]===============================*/
+
+p.tweet {
+    margin: 5px 0;
+}
