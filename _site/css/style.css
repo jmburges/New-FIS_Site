@@ -3103,6 +3103,8 @@ a.bluelink:link, a.bluelink:visited, a.bluelink:hover, a.bluelink:active {
 
 /* ==[ twitter widget ]===============================*/
 
-p.tweet {
-    margin: 5px 0;
+.footer-widget .tweet {
+    margin-left: 0;
 }
+
+
