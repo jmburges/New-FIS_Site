@@ -1388,6 +1388,15 @@ h3#comments {
     margin-bottom: 3%;
 }
 
+.wf1-column {
+    width: 33%;
+    margin: 0 0 3% 0;
+    float: left;
+    padding-left: 4%;
+    margin-bottom: 3%;
+    height: 200px;
+}
+
 .section .column:last-child {
     margin-right: 0px;
     border-right: none;
